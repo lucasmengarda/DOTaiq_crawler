@@ -1,0 +1,22 @@
+{
+    "name": "doqaiq",
+    "description": "DOT AIQ",
+    "version": "1.0.0",
+    "private": true,
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "gcp-build": "npm run build && npx @puppeteer/browsers install chromium --path /workspace/puppeteer"
+    },
+    "engines": {
+        "node": ">= 16.0.0"
+    },
+    "author": "Lucas Mengarda & DevTeam DOTaiq",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "puppeteer": "^22.10.0",
+        "puppeteer-extra": "^3.3.6",
+        "puppeteer-extra-plugin-stealth": "^2.11.2"
+    }
+}
